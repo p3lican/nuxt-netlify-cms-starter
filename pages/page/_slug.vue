@@ -2,18 +2,6 @@
   <section class="post">
     <Container class="meta-section">
       <h1>{{ title }}</h1>
-      <p v-if="published === updated" class="post-meta">
-        Posted on {{ published }} by
-        <a v-if="authorlink" :href="authorlink">{{ author }}</a>
-      </p>
-      <p v-else class="post-meta">
-        Updated on {{ updated }} by
-        <a v-if="authorlink" :href="authorlink">{{ author }}</a>
-      </p>
-    </Container>
-    <Container narrow>
-      <img v-lazy="thumbnail" class="thumbnail" :alt="title" />
-      <div id="shareable" class="post-content" v-html="html"></div>
     </Container>
   </section>
 </template>
