@@ -1,7 +1,7 @@
 ---
 type: This is Type
 language: English
-title: Title of this blog
+title: Title of this blog. What Am I Not Seeing It?
 summary: lorem ipsom bitches. The summary has to be a certain length. I  kind of
   like that. lorem ipsom bitches. The summary has to be a certain length.
   I  kind of like that.
